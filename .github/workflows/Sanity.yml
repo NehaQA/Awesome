@@ -1,5 +1,5 @@
 
-name: Sanity
+name: Cypress Test
 on: push
 jobs:
   my-job:
