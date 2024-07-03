@@ -1,11 +1,8 @@
 name: Cypress Test
 on: push
 jobs:
-  cypress-run:
-    runs-on: ubuntu-22.04
+  my-job:
+    runs-on: ubuntu-latest
     steps:
-      - name: Cypress run
-        uses: cypress-io/github-action@v6
-        with:
-          command: git push origin main
-          browser: chrome
+      - name: my-step
+        run: echo "Hello World!"
